@@ -1,9 +1,9 @@
 const imagesData = [
   {
     link: "./html/anotherPage.html",
-    imageSrc: "../assets/support_and_networking.jpg",
-    hoverImageSrc: "../assets/support_and_networking.jpg",
-    altImageSrc: "../assets/support_and_networking.jpg",
+    imageSrc: "./src/assets/support_and_networking.jpg",
+    hoverImageSrc: "./src/assets/support_and_networking.jpg",
+    altImageSrc: "./src/assets/support_and_networking.jpg",
     alt: "Support And Networking",
     arrowSrc:
       "https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg",
@@ -13,9 +13,9 @@ const imagesData = [
   },
   {
     link: "./html/anotherPage.html",
-    imageSrc: "../assets/careers_qr-code.png",
-    hoverImageSrc: "../assets/careers_qr-code.png",
-    altImageSrc: "../assets/careers_qr-code.png",
+    imageSrc: "./src/assets/careers_qr-code.png",
+    hoverImageSrc: "./src/assets/careers_qr-code.png",
+    altImageSrc: "./src/assets/careers_qr-code.png",
     alt: "QR Code",
     arrowSrc:
       "https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg",
@@ -25,9 +25,9 @@ const imagesData = [
   },
   {
     link: "./html/messageBoard.html",
-    imageSrc: "../assets/our_mission1.jpeg",
-    hoverImageSrc: "../assets/our_mission1.jpeg",
-    altImageSrc: "../assets/our_mission1.jpeg",
+    imageSrc: "./src/assets/our_mission1.jpeg",
+    hoverImageSrc: "./src/assets/our_mission1.jpeg",
+    altImageSrc: "./src/assets/our_mission1.jpeg",
     alt: "Message Board",
     arrowSrc:
       "https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg",
