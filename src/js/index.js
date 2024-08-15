@@ -1,4 +1,4 @@
-import imagesData from "../data/images_data.js";
+import imagesData from "./image_data.js";
 
 import Image from "./image_gallery.js";
 
