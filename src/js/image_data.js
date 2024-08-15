@@ -1,6 +1,6 @@
 const imagesData = [
   {
-    link: "./html/anotherPage.html",
+    link: "./src/html/human_resources.html",
     imageSrc: "./src/assets/support_and_networking.jpg",
     hoverImageSrc: "./src/assets/support_and_networking.jpg",
     altImageSrc: "./src/assets/support_and_networking.jpg",
@@ -12,7 +12,7 @@ const imagesData = [
       "Support network for employees with similar backgrounds or interests, facilitating networking opportunities and creating a sense of belonging.",
   },
   {
-    link: "./html/anotherPage.html",
+    link: "./src/html/human_resources.html",
     imageSrc: "./src/assets/careers_qr-code.png",
     hoverImageSrc: "./src/assets/careers_qr-code.png",
     altImageSrc: "./src/assets/careers_qr-code.png",
@@ -24,7 +24,7 @@ const imagesData = [
       "Mentoring programs, workshops, and events that help members develop new skills, enhance their careers, and gain visibility within the organization.",
   },
   {
-    link: "./html/messageBoard.html",
+    link: "./src/html/message_board.html",
     imageSrc: "./src/assets/our_mission1.jpeg",
     hoverImageSrc: "./src/assets/our_mission1.jpeg",
     altImageSrc: "./src/assets/our_mission1.jpeg",

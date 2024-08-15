@@ -17,5 +17,6 @@ const imageInstances = imagesData.map(
     )
 );
 
+console.log(imageInstances);
 // Render each image
 imageInstances.forEach((image) => image.render());
