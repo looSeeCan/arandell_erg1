@@ -1,6 +1,6 @@
 const imagesData = [
   {
-    link: "./src/html/human_resources.html",
+    link: "./src/html/directory.html",
     imageSrc: "./src/assets/support_and_networking.jpg",
     hoverImageSrc: "./src/assets/support_and_networking.jpg",
     altImageSrc: "./src/assets/support_and_networking.jpg",
