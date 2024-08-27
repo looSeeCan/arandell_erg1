@@ -8,8 +8,8 @@
   <style>
     * {
       box-sizing: border-box;
-      margin: 1px;
-      padding: 1px;
+      margin: 0;
+      padding: 0;
     }
 
     body {
@@ -35,17 +35,30 @@
     .slideshow-container {
     }
   </style>
-
+  <!-- TODO: mobile images need to be sized down. use <picture>. When desktop then slideshow -->
   <body>
     <header></header>
     <main>
       <section class="slideshow-container">
         <div class="mySlides fade">
-          <div class="numbertext"></div>
-          <img
-            src="../assets/messege_board_images/Picture1.png"
-            style="width: 100%"
-          />
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="../assets/messege_board_images/become_bindary_l.png"
+            />
+            <source
+              media="(min-width: 700px)"
+              srcset="../assets/messege_board_images/become_bindary_m.png"
+            />
+            <!-- <source
+              media="(max-width: 700px)"
+              srcset="../assets/messege_board_images/become_bindary_l"
+            /> -->
+            <img
+              src="../assets/messege_board_images/become_bindary_s.png"
+              alt="bindery"
+            />
+          </picture>
         </div>
 
         <div class="mySlides fade">
